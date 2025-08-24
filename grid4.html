@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Technology</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #333;
+    }
+
+    .section {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      color: #0077b6;
+      margin-bottom: 15px;
+    }
+    span{
+      font-size: 28px;
+    }
+
+    .section p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    /* Two column layout */
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      align-items: stretch;
+    }
+
+    /* Left side box */
+    .white-box {
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .white-box h3 {
+      font-size: 18px;
+      color: #000;
+      margin-bottom: 8px;
+    }
+
+    .white-box p {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 18px;
+      line-height: 1.5;
+    }
+
+    /* Right side gradient box */
+    .blue-box {
+      background: linear-gradient(to bottom, #00b4db, #0083b0);
+      color: white;
+      padding: 30px 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .blue-box h3 {
+      font-size: 20px;
+      margin-bottom: 12px;
+    }
+
+    .blue-box p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: rgba(0,0,0,0.6);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .content {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="section">
+    <h2>Our <span style="color:#0077b6;">Technology</span></h2>
+    <p>
+      Our innovative Solar Electrical Dryer System represents the perfect
+      marriage of sustainable technology and traditional preservation methods.
+    </p>
+
+    <div class="content">
+      <!-- Left white box -->
+      <div class="white-box">
+        <h3>☀ Solar-powered Efficiency</h3>
+        <p>Harnesses natural solar energy for eco-friendly drying processes.</p>
+
+        <h3>💧 Hygienic Standards</h3>
+        <p>Controlled environment ensures food safety and quality.</p>
+
+        <h3>🔬 Scientific Approach</h3>
+        <p>CIFT guidance ensures optimal processing methods.</p>
+      </div>
+
+      <!-- Right gradient box -->
+      <div class="blue-box">
+        <h3>☀ Solar Drying Technology</h3>
+        <p>
+          Advanced solar electrical dryer system that preserves natural flavors, 
+          nutrients, and ensures consistent quality in every batch.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
